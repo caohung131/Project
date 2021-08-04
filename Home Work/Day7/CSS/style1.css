@@ -1,0 +1,138 @@
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    position: relative;
+}
+.container {
+    max-width: 1140px;
+    margin: 0px auto;
+    position: relative;
+}
+header {
+    width: 100%;
+    background-color: white;
+}
+header .header-logo {
+    float: left;
+    width: 30%;
+    text-align: center;
+    
+}
+header .header-logo img {
+   width: 150px;
+   height: 150px;
+   line-height: 150px;
+}
+header .header-article {
+    float: left;
+    width: 70%;
+    line-height: 100px;
+
+}
+header .header-article H1{
+    width: 100%;
+    text-transform: uppercase;
+    color: #f46b25;
+}
+nav {
+    clear: left;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #57a929;
+    
+}
+nav ul  {
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+}
+nav ul li {
+    float: left;
+    list-style: none;
+    margin-right: 6%;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+.container-content {
+    width: 100%;
+}
+article {
+    width: 70%;
+    float: left;
+   
+}
+article .content1 {
+    width: 99%;
+    float: left;
+}
+article .content1 .content1-img {
+    width: 30%;
+    float: left;
+    padding: 2% 2% 2% 0;
+}
+article .content1 .content1-img img {
+    width: 100%;
+}
+article .content1 .content1-article {
+    width: 60%;
+    float: left;
+}
+article .content1 .content1-article h1 {
+    
+}
+article .content1 .content1-article p {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+article .content1 .content1-article span {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding-right: 5%;
+}
+
+aside {
+    width: 30%;
+    float: left;
+    
+}
+aside img {
+    width: 100%;
+    margin-top: 4%;
+}
+footer {
+    clear: left;
+}
+footer h3 {
+    margin-top: 5%;
+    text-transform: uppercase;
+    line-height: 100px;
+    text-align: center;
+    background-color: #0d2201;
+    color: white;
+}
+.add-ads {
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.add-ads img:nth-of-type(1){
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 35%;
+}
+.add-ads img:nth-of-type(2){
+    position: absolute;
+    z-index: 11;
+    top: 50%;
+    left: 35%;
+}

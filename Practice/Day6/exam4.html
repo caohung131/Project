@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		
+		ul.root >li> ul > li {
+			background: red;
+		}
+	</style>
+</head>
+<body>
+	<ul class="root">
+		<li><a href="">Menu item 1</a></li>
+		<li><a href="">Menu item 1</a></li>
+		<li><a href="">Menu item 1</a>
+			<ul class="root">
+				<li><a href="">Menu item 1</a></li>
+				<li><a href="">Menu item 1</a>
+					<ul class="root">
+						<li><a href="">Menu item 1</a></li>
+						<li><a href="">Menu item 1</a></li>
+						<li><a href="">Menu item 1</a></li>
+					</ul>
+				</li>
+				<li><a href="">Menu item 1</a></li>
+			</ul>
+		</li>
+	</ul>
+</body>
+</html>
