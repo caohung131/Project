@@ -120,7 +120,10 @@ footer h3 {
 }
 .add-ads {
     width: 100%;
-    background-attachment: fixed;
+    position: fixed;
+    top: 12%;
+    position: -webkit-stickys;
+    z-index: 1;
     background-position: center;
     background-size: cover;
 }
