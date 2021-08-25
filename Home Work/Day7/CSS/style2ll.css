@@ -93,7 +93,7 @@ header .container {
     background-color: #3bb979;
     color: white;
 }
-.menu-mobile {
+ul.menu-mobile {
     display: none;
 }
 
@@ -386,9 +386,9 @@ footer .f-right p:nth-of-type(5) {
     }
     
     /* menu-mobile */
-    ul.menu-mobile {
+    /* ul.menu-mobile {
         display: none;
-    }
+    } */
     ul.menu-mobile li a {
         text-transform: capitalize;
         font-size: 22px;
@@ -711,7 +711,7 @@ footer .f-right p:nth-of-type(5) {
         text-align: center;
         text-transform: uppercase;
         margin-bottom: 10px;
-        display: none;
+        
     }
     ul.menu-mobile li:hover a{
         color: #3cb879;
