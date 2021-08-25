@@ -157,8 +157,8 @@ main {
 
 /* buy */
 .product-list ul li .buy {
-    top: 0;
-    right: 18px;
+    top: 0%;
+    right: 6%;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -436,6 +436,14 @@ footer .f-right p:nth-of-type(5) {
      .product-list #child-product li {
          margin-bottom: 20px;
      }
+     .product-list ul li .buy {
+        top: 4%;
+        right: 6%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        /* display: none; */
+    }
 
      /* delever */
     #delivery ul li a h3 {
@@ -591,6 +599,10 @@ footer .f-right p:nth-of-type(5) {
         margin-top: 20px;
         width: 90%;
     }
+    .product-list ul li .buy {
+        top: 9%;
+        right: 6%
+    }
     .product-list #child-product li {
         margin-bottom: 20px;
     }
@@ -725,7 +737,7 @@ footer .f-right p:nth-of-type(5) {
     /* .container .tool-bar ul li:nth-of-type(3):hover a ul.menu-mobile {
         display: block;
     } */
-}
+}   
 
 /* dec
 @media only screen and (min-width: 1041px) and (max-width: 576px){
