@@ -442,7 +442,7 @@ footer .f-right p:nth-of-type(5) {
         position: absolute;
         display: flex;
         flex-direction: column;
-        /* display: none; */
+        display: none;
     }
 
      /* delever */
@@ -600,7 +600,7 @@ footer .f-right p:nth-of-type(5) {
         width: 90%;
     }
     .product-list ul li .buy {
-        top: 9%;
+        top: 9% !important;
         right: 6%
     }
     .product-list #child-product li {
