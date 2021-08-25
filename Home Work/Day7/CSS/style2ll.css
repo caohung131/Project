@@ -354,7 +354,8 @@ footer .f-right p:nth-of-type(5) {
 }
 
 /* reponsive */
-@media only screen and (min-width: 576px) and (max-width: 1024px){
+/* table */
+@media only screen and (min-width: 576px) and (max-width: 1040px){
     .menu {
         display: none;
     }
@@ -526,9 +527,8 @@ footer .f-right p:nth-of-type(5) {
     .f-left, .f-right {
         width: 50%;
     }
-    
-
 }
+/* mobile */
 @media only screen and (min-width: 320px) and (max-width: 576px) {
     .menu {
         display: none;
@@ -722,4 +722,11 @@ footer .f-right p:nth-of-type(5) {
     /* .container .tool-bar ul li:nth-of-type(3):hover a ul.menu-mobile {
         display: block;
     } */
+}
+
+/* dec */
+@media only screen and (min-width: 1040px) {
+    ul.menu-mobile {
+        display: none;
+    }
 }
