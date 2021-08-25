@@ -93,6 +93,9 @@ header .container {
     background-color: #3bb979;
     color: white;
 }
+.menu-mobile {
+    display: none;
+}
 
 
 /* =================== Main ======================= */
@@ -724,9 +727,9 @@ footer .f-right p:nth-of-type(5) {
     } */
 }
 
-/* dec */
-@media only screen and (min-width: 1040px) and (max-width: 576px){
+/* dec
+@media only screen and (min-width: 1041px) and (max-width: 576px){
     ul.menu-mobile {
         display: none;
     }
-}
+} */
